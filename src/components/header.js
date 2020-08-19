@@ -52,14 +52,14 @@ function Header() {
             isExpanded ? `block` : `hidden`
           } md:block md:flex md:items-center w-full md:w-auto`}
         >
-          <a
+          {/* <a
             className="block mt-4 text-gray-800 text-sm no-underline md:inline-block md:mt-0 md:ml-6 uppercase hover:underline"
             href="https://merch.ambientinks.com/collections/jonbatiste"
             target="_blank"
             rel="noreferrer"
           >
             Store
-          </a>
+          </a> */}
           {[
             {
               route: `/about`,

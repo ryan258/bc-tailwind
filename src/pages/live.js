@@ -12,8 +12,9 @@ function LivePage() {
         title="Live"
       />
       <section className="pt-8 md:pt-16">
-        <div className="sm:flex">
-          <p className="uppercase">There are no upcoming tour dates.</p>
+        {/* <div className="sm:flex text-center"> */}
+        <div className="text-center">
+          <p className="uppercase ">There are no upcoming tour dates.</p>
         </div>
       </section>
     </Layout>
