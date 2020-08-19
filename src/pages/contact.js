@@ -10,7 +10,19 @@ function ContactPage() {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Contact"
       />
-      <section>
+      <section className="text-center pt-8 md:pt-16">
+        <h1 className="font-bold text-xl mb-4 uppercase font-serif">Contact</h1>
+        <p className="uppercase font-bold text-lg mb-4">
+          For inquiries, please message
+          <br />
+          <a href="#" className="font-normal">
+            bryanceemusic@gmail.com
+          </a>
+        </p>
+        <h2 className="font-bold text-lg uppercase">Management</h2>
+        <p className="uppercase">Managed by Lorem & Ipsum</p>
+      </section>
+      {/* <section>
         <form className="mx-auto md:w-1/2">
           <p className="mb-8 leading-loose">
             Here is an example of a form built using the official Tailwind CSS
@@ -72,7 +84,7 @@ function ContactPage() {
             Submit
           </button>
         </form>
-      </section>
+      </section> */}
     </Layout>
   );
 }

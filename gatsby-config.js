@@ -5,9 +5,13 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`,
+    title: `Bryan Cee`,
+    description: `Originally a poet, Bryan Cee portrayed a different aspect of his personality, through his compositions and introspective, conscious lyrics.`,
+    author: `@258webdesigner`,
+    facebook: `https://www.facebook.com/BryanCeemusic/`,
+    instagram: `https://www.instagram.com/bryan.cee/`,
+    soundcloud: `https://soundcloud.com/bryan-cee`,
+    youtube: `https://www.youtube.com/channel/UC1l0H9i9eV5iJpORVUD6wgA`,
   },
   plugins: [
     `gatsby-plugin-eslint`,

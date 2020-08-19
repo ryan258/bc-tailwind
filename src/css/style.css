@@ -3,3 +3,33 @@
 @tailwind components;
 /*! purgecss end ignore */
 @tailwind utilities;
+
+.splash {
+  background-color: green;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.splash .enter-button {
+  /* background-color: #fff; */
+  /* text-align: center; */
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.diary {
+  background: url(../images/fullpage--diary-of-a-pandemic.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.bbb {
+  border-bottom: 1px solid #000;
+}
+
+.track p {
+  display: none;
+}
