@@ -2,8 +2,8 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-// import bryanPianoPortrait from "../images/bryan-piano-pt.jpg";
-import bryanWhiteSuit from "../images/bryanCee--white-suit.jpg";
+import bryanPianoPortrait from "../images/bryan-piano-pt.jpg";
+// import bryanWhiteSuit from "../images/bryanCee--white-suit.jpg";
 
 function AboutPage() {
   return (
@@ -18,10 +18,10 @@ function AboutPage() {
           <img
             alt="Bryan enjoying the piano."
             className="block"
-            src={bryanWhiteSuit}
+            src={bryanPianoPortrait}
           />
         </section>
-        <section className="bg-gray-200 p-4 w-full sm:w-5/12 xxxmt-8">
+        <section className="bg-gray-200 p-4 mt-8 w-full sm:w-5/12 xxxmt-8">
           <h1 className="font-bold text-xl mb-4">Bryan Cee...</h1>
           <p className="text-sm mb-4">
             Brian Cooper also affectionately known as “Bryan Cee” is an
