@@ -10,11 +10,11 @@ function IndexPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`Bryan Cee`, `music`, `composer`, `Reggae`, `Classical`]}
         title="Home"
       />
       <div className="home splash diary">
-        <Link to="/about" className="enter-button"></Link>
+        <Link to="/album/diary" className="enter-button"></Link>
       </div>
       {/* <div className="sm:flex pt-8">
         <section className="text-center w-full sm:w-7/12">

@@ -40,7 +40,18 @@ function DiaryPage() {
             </a>
           </p> */}
         </section>
+
         <section className="bg-gray-200 p-4 w-full sm:w-8/12 mt-8">
+          <iframe
+            width="100%"
+            height="166"
+            scrolling="no"
+            // frameborder="no"
+            rel="noreferrer"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/281736585&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+          ></iframe>
+
           <h2 className="text-3xl uppercase font-bold">Album Tracks</h2>
           <ol>
             <li className="pt-4 track">

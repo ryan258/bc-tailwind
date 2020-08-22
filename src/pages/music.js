@@ -11,7 +11,7 @@ function MusicPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`Bryan Cee`, `music`, `Reggae`, `Classical`]}
         title="Music"
       />
 

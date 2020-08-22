@@ -6,7 +6,7 @@ import SEO from "../../components/seo";
 import wibeOfLife from "../../images/albumCover--wibe-of-life.jpg";
 // import diaryPandemic from "../../images/albumCover--diary-of-a-pandemic.png";
 
-function DiaryPage() {
+function WibePage() {
   return (
     <Layout>
       <SEO
@@ -17,11 +17,7 @@ function DiaryPage() {
       <div className="sm:flex sm:space-x-4">
         <section className=" w-full sm:w-4/12 mt-8">
           <div className="bg-gray-200 pb-4">
-            <img
-              alt="Album art for Diary of a Pandemic"
-              className="block"
-              src={wibeOfLife}
-            />
+            <img alt="The Wibe of Life" className="block" src={wibeOfLife} />
             <h1 className="text-4xl leading-none pt-6 pb-3 text-center uppercase font-bold">
               The Wibe of Life
             </h1>
@@ -79,4 +75,4 @@ function DiaryPage() {
   );
 }
 
-export default DiaryPage;
+export default WibePage;
