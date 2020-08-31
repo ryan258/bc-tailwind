@@ -21,7 +21,7 @@ function WibePage() {
             <h1 className="text-4xl leading-none pt-6 pb-3 text-center uppercase font-bold">
               The Wibe of Life
             </h1>
-            <p className="text-lg text-center uppercase mb-5">Available On:</p>
+            {/* <p className="text-lg text-center uppercase mb-5">Available On:</p> */}
           </div>
           {/* <p className="text-sm text-bold text-center uppercase">
             <a
@@ -35,6 +35,16 @@ function WibePage() {
           </p> */}
         </section>
         <section className="bg-gray-200 p-4 w-full sm:w-8/12 mt-8">
+          <iframe
+            width="100%"
+            height="166"
+            scrolling="no"
+            // frameborder="no"
+            rel="noreferrer"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/880879606&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+          ></iframe>
+
           <h2 className="text-3xl uppercase font-bold">Album Tracks</h2>
           <ol>
             <li className="pt-4 track">

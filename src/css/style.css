@@ -29,6 +29,17 @@
 .bbb {
   border-bottom: 1px solid #000;
 }
+.tip {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+}
+.enter {
+  background-color: rgb(60, 60, 95);
+  color: #fff;
+  bottom: 0;
+  padding: 0.5rem 1rem;
+}
 
 /* .track p {
   display: none;

@@ -10,7 +10,7 @@ module.exports = {
     author: `@258webdesigner`,
     facebook: `https://www.facebook.com/BryanCeemusic/`,
     instagram: `https://www.instagram.com/bryan.cee/`,
-    soundcloud: `https://soundcloud.com/bryan-cee`,
+    soundcloud: `https://soundcloud.com/user-520937318`,
     youtube: `https://www.youtube.com/channel/UC1l0H9i9eV5iJpORVUD6wgA`,
   },
   plugins: [

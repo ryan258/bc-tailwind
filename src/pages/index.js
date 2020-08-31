@@ -16,6 +16,9 @@ function IndexPage() {
       <div className="home splash diary">
         <Link to="/album/diary" className="enter-button"></Link>
       </div>
+      <div className="text-center tip">
+        <div className="enter">Click Image to Proceed.</div>
+      </div>
       {/* <div className="sm:flex pt-8">
         <section className="text-center w-full sm:w-7/12">
           <img
